@@ -1,0 +1,792 @@
+{
+    "app": {
+        "title": "Ully",
+        "description": "Gerencie seus links favoritos com facilidade e rapidez"
+    },
+    "menus": {
+        "landingmenu": {
+            "about": "Sobre",
+            "pricing": "Preço",
+            "developers": "Desenvolvedores",
+            "privacy": "Política de Privacidade",
+            "tos": "Termos de Serviço",
+            "blog": "Blog",
+            "support": "Suporte",
+            "contact": "Contato"
+        },
+        "profilemenu": {
+            "account": "Configurações",
+            "receipts": "Recibos",
+            "profile": "Perfil",
+            "lockscreen": "Lockscreen",
+            "logout": "Sair"
+        },
+        "mainmenu": {
+            "dashboard": "Painel",
+            "search": "Buscar",
+            "shortener": "Encurtador",
+            "favorites": "Favoritos",
+            "collections": "Coleções",
+            "stats": "Estatísticas",
+            "users": "Usuários",
+            "moderation": "Moderação",
+            "news": "Notícias",
+            "mailer": "Mailer",
+            "billing": "Financeiro",
+            "plans": "Planos",
+            "transactions": "Transações",
+            "system": "Sistema"
+        }
+    },
+    "forms": {
+        "placeholders": {
+            "search": "Buscar...",
+            "search_users": "Buscar por usuários",
+            "search_collections": "Buscar por coleções",
+            "shorten": "Preencha uma nova url para encurtar",
+            "protected_url": "Preencha uma senha",
+            "shortcode": "Preencha um shortcode",
+            "login": {
+                "email": "Preencha seu email",
+                "password": "Preencha sua senha"
+            },
+            "signup": {
+                "name": "Preencha seu nome",
+                "username": "Preencha seu username",
+                "email": "Preencha seu email",
+                "password": "Preencha sua senha"
+            },
+            "forgot": {
+                "username": "Preencha seu username",
+                "email": "Preencha seu email"
+            },
+            "reset": {
+                "password": "Preencha uma nova senha",
+                "confirm_password": "Confirme sua nova senha"
+            },
+            "activate": {
+                "email": "Preencha seu email"
+            },
+            "shortener": {
+                "password": "Preencha a senha dessa url encurtada"
+            },
+            "system": {
+                "message": "Preencha uma mensagem para mostrar na página de manutenção (Opcional)",
+                "current_password": "Preencha sua senha atual"
+            },
+            "plans": {
+                "name": "Nome do Plano",
+                "collections": "Número de coleções",
+                "urls": "Número de urls",
+                "price": "Preço do Plano"
+            },
+            "transactions": {
+                "plan_id": "Selecione um plano",
+                "user_id": "Selecione um usuário"
+            },
+            "news": {
+                "title": "Preencha o título da notícia",
+                "content": "Preencha o conteúdo da notícia"
+            },
+            "alert": {
+                "content": "Preencha o conteúdo do alerta"
+            }
+        },
+        "labels": {
+            "name": "Nome",
+            "username": "Nome de usuário",
+            "email": "E-mail",
+            "locale": "Selecione seu idioma",
+            "password": "Senha",
+            "role": "Cargo",
+            "current_password": "Senha atual",
+            "new_password": "Nova senha",
+            "confirm_password": "Confirmar senha",
+            "access_token": "Access Token",
+            "collections": {
+                "name": "Nome",
+                "slug": "Slug",
+                "public": "Privacidade",
+                "title": "Título",
+                "description": "Descrição",
+                "url": "Url"
+            },
+            "urlsof": "Urls de",
+            "users": "Usuários",
+            "active_users": "Usuários ativos",
+            "inactive_users": "Usuários inativos",
+            "all_collections": "Coleções",
+            "public_collections": "Coleções públicas",
+            "private_collections": "Coleções privadas",
+            "urls": "Urls",
+            "api_status": "Status da API",
+            "maintenance": "Mode de Manutenção",
+            "message": "Mensagem",
+            "admin": "Administrador",
+            "user": "Usuário",
+            "title": "Título",
+            "content": "Conteúdo",
+            "status": "Status",
+            "published": "Publicado",
+            "draft": "Rascunho",
+            "type": "Tipo",
+            "type_success": "Sucesso",
+            "type_danger": "Erro",
+            "type_info": "Informação",
+            "type_warning": "Alerta",
+            "plans": {
+                "name": "Nome",
+                "collections": "Número de coleções",
+                "urls": "Número de Urls",
+                "price": "Preço"
+            },
+            "transactions": {
+                "plan_id": "ID do plano",
+                "user_id": "ID do usuário",
+                "order_id": "ID do pedido",
+                "date": "Data",
+                "order_date": "Data do pedido",
+                "plan": "Nome do plano",
+                "description": "Descrição",
+                "price": "Preço",
+                "payment_id": "ID do pagamento",
+                "payment_method": "Forma de pagamento",
+                "total": "Total",
+                "user": "Usuário"
+            },
+            "sent_emails": "Emails enviados",
+            "mailer": {
+                "subject": "Assunto",
+                "content": "Conteúdo"
+            },
+            "import": {
+                "content": "Conteúdo"
+            }
+        }
+    },
+    "buttons": {
+        "readmore": "Ler mais",
+        "download": "Baixar",
+        "chrome": "Chrome Web Store",
+        "firefox": "Em breve",
+        "login": "Entrar",
+        "login_basic": "Entrar com Email",
+        "login_facebook": "Entrar com Facebook",
+        "login_twitter": "Entrar com Twitter",
+        "login_google": "Entrar com Google",
+        "login_github": "Entrar com GitHub",
+        "signup_basic": "Cadastrar com Email",
+        "signup_facebook": "Cadastrar com  Facebook",
+        "signup_google": "Cadastrar com  Google",
+        "signup_github": "Cadastrar com  GitHub",
+        "signup_with": "Cadastrar com {{provider}}",
+        "forgotpassword?": "Esqueceu a senha?",
+        "connect_facebook": "Conectar com Facebook",
+        "connect_twitter": "Conectar com Twitter",
+        "connect_google": "Conectar com Google",
+        "connect_github": "Connectar com GitHub",
+        "unlink_facebook": "Desconectar do Facebook",
+        "unlink_twitter": "Desconectar do Twitter",
+        "unlink_google": "Desconectar do Google",
+        "unlink_github": "Desconectar do GitHub",
+        "reset_password": "Resetar sua senha",
+        "resend_token": "Reenviar token de ativação",
+        "create_account": "Criar uma conta",
+        "create_my_account": "Criar minha conta",
+        "update_account": "Atualizar minha conta",
+        "delete_account": "Remover minha conta",
+        "show_access_token": "Mostrar meu access token",
+        "reset_access_token": "Resetar meu access token",
+        "previous": "Anterior",
+        "next": "Próximo",
+        "create": "Criar",
+        "compose": "Escrever",
+        "update": "Atualizar",
+        "confirm": "Confirmar",
+        "close": "Fechar",
+        "cancel": "Cancelar",
+        "edit": "Editar",
+        "remove": "Remover",
+        "goto": "Ir para",
+        "send": "Enviar",
+        "back": "Voltar para o painel",
+        "try": "Tentar novamente",
+        "print": "Imprimir",
+        "pay_paypal": "Pagar com Paypal",
+        "pay_bitcoin": "Pagar com Bitcoin (Em breve)",
+        "upgrade": "Aumentar seu limite",
+        "view_receipt": "Ver recibo",
+        "view_profile": "Ver perfil",
+        "view_links": "Ver links",
+        "shorten": "Encurtar",
+        "unlock_url": "Desbloquear para redirecionar",
+        "update_system": "Atualizar configurações",
+        "publish": "Publicar",
+        "download_collections": "Exportar coleções",
+        "upload_collections": "Importar coleções",
+        "qrcode": "Ver como QRCode",
+        "import": "Importar",
+        "validate": "Validar"
+    },
+    "mail": {
+        "greeting": "Olá, {{ name }}",
+        "signup": {
+            "title": "Bem-vindo(a) ao Ully",
+            "message": "Para começar a usar o Ully, você precisa ativar sua conta. Clique no link para ativar sua conta.",
+            "button": "Ativar sua conta no Ully"
+        },
+        "social_signup": {
+            "title": "Bem-vindo(a) ao Ully",
+            "message": "You joined the Ully using your {{ socialNetwork }} account, was generated a password and username for your account. Your personal information can be changed using the link below:",
+            "username": "Nome de usuário:",
+            "password": "Senha:",
+            "button": "Acessar sua conta"
+        },
+        "activate": {
+            "title": "Sua conta foi ativada",
+            "message": "Comece a usar o Ully. Clique no link para acessar sua conta.",
+            "button": "Acessar sua conta"
+        },
+        "forgot": {
+            "title": "Recuperação de senha",
+            "message": "Você solicitou uma alteração de senha. Use o link abaixo para criar uma nova senha.",
+            "button": "Resetar senha"
+        },
+        "reset": {
+            "title": "Sua senha foi alterada com sucesso",
+            "subtitle": "Recuperação de senha",
+            "message": "Sua senha foi alterada com sucesso em {{ updatedDate }} usando o ip: {{ ip }}.",
+            "button": "Acessar sua conta"
+        },
+        "update_account": {
+            "title": "Sua conta foi atualizada com sucesso",
+            "message": "Sua conta foi atualizada com sucesso em {{ updatedDate }} usando o ip: {{ ip }}.",
+            "button": "Acessar sua conta"
+        },
+        "delete_account": {
+            "title": "Sua conta foi deletada com sucesso",
+            "message": "Sua conta foi deletada com sucesso em {{ updatedDate }} usando o ip: {{ ip }}.",
+            "button": "Criar nova conta"
+        },
+        "receipt": {
+            "title": "Pagamento aprovado",
+            "payment_title": "Detalhes do Pagamento",
+            "plan_title": "Detalhes do Plano",
+            "order_date": "Data do pedido:",
+            "order_id": "ID do pedido:",
+            "payment_id": "ID do pagamento:",
+            "payment_method": "Forma de pagamento:",
+            "plan": "Plano:",
+            "price": "Preço:",
+            "description": "Descrição:",
+            "message": "Seu pagamento foi aprovado, você pode ver os detalhes de pagamento abaixo.",
+            "button": "Ver recibo"
+        }
+    },
+    "messages": {
+        "generic_error": "Ocorreu um erro. Tente novamente!",
+        "api": {
+            "welcome": "Bem-vindo(a) a API do Ully."
+        },
+        "importer": {
+            "unsupported_browser": "Desculpe, seu navegador não é compatível com o Ully.",
+            "import_info": "O Ully recebeu seus favoritos e começou a importar tudo em sua conta. Espere um momento. :)",
+            "import_success": "Seus favoritos foram importados com sucesso no Ully!",
+            "collections": {
+                "nospace": "Desculpe, a quantidade de coleções no seu browser é maior do que o limite permitido para a sua conta."
+            },
+            "urls": {
+                "nospace": "Sua coleção {{ collection }} tem {{ length}} urls e é maior do que o limite permitido para a sua conta."
+            }
+        },
+        "import": {
+            "validate_success": "Esse documento json não é uma UllyCollectionList válida!",
+            "import_success": "Suas coleções foram importadas com sucesso no Ully!"
+        },
+        "auth": {
+            "notfound": "Não existe nenhum usuário com esse email!",
+            "inactive": "Sua conta não está ativada. Verifique sua caixa de entrada, enviamos um e-mail com o seu token de ativação. Se você não receber um token de ativação <a href=\"/activate\">clique aqui</a>.",
+            "activated": "Sua conta foi ativada com sucesso!",
+            "invalid_password": "Senha inválida!",
+            "not_logged": "Você precisa está logado para acessar essa página!",
+            "login_success": "Logado com sucesso usando o {{provider}}!",
+            "login_fail": "Ocorreu um erro ao tentar criar a sua conta usando seu {{ provider }}. Tente novamente!",
+            "login_fail_twitter": "Você deve estar registrado para poder usar a sua conta Twitter. Visite as configurações da conta e adicionar o login com twitter.",
+            "login_api_fail": "Falha na autenticação. Você não tem permissão para acessar a API!",
+            "login_activation": "Um e-mail com o seu token de ativação foi enviado para o seu e-mail!",
+            "forgot_password": "Um e-mail com o link de redefinição de senha foi enviada para seu e-mail!",
+            "captcha_fail": "Você não respondeu ao captcha corretamente. Tente novamente!",
+            "email_exists": "Já existe uma conta com esse e-mail!",
+            "username_exists": "Já existe uma conta com esse nome de usuário!",
+            "token_notfound": "Token não encontrado. Tente novamente!",
+            "password_notmatch": "Essas senhas não são iguais!",
+            "reset_password": "Sua senha foi alterada com sucesso!",
+            "current_password": "A senha atual está incorreta. Tente novamente!",
+            "reset_ac_success": "Um novo token de acesso foi gerado com sucesso!"
+        },
+        "users": {
+            "notfound": "Usuário{{plural}} não encontrado{{plural}}!",
+            "empty_users": "Sem usuários",
+            "create_success": "Usuário criado com sucesso!",
+            "update_success": "Usuário atualizado com sucesso!",
+            "delete_success": "Usuário deletado com sucesso!"
+        },
+        "collections": {
+            "notfound": "Coleção não encontrada!",
+            "slug_exists": "Essa slug já está sendo usada!",
+            "limit_collections": "Desculpe, mas você já atingiu o limite de {{limit}} coleções!",
+            "limit_urls": "Desculpe, mas você já atingiu o limite de {{limit}} urls nesta coleção!",
+            "empty_collections": "Você não tem coleções",
+            "no_changes": "Você não fez nenhuma alteração!",
+            "create_success": "Coleção criada com sucesso!",
+            "update_success": "Coleção atualizada com sucesso!",
+            "delete_success": "Coleção deletada com sucesso!",
+            "protected_collection": "Você não pode deletar essa coleção!",
+            "collection_exists": "Você já tem uma coleção com essa slug. Tente novamente usando outra slug.",
+            "urls": {
+                "notfound": "Url{{plural}} não encontrada{{plural}}!",
+                "empty_urls": "Você não tem urls",
+                "no_changes": "Você não fez nenhuma alteração",
+                "create_success": "Url criada com sucesso!",
+                "update_success": "Url atualizada com sucesso!",
+                "delete_success": "Url deletada com sucesso!"
+            }
+        },
+        "account": {
+            "limit_info": "O seu limite atual é <strong>{{ collections }}</strong> coleções com até <strong>{{ urls }}</strong> urls cada.",
+            "unlink_success": "Sua conta no {{ provider }} foi desvinculada com sucesso!",
+            "update_success": "Sua conta foi atualizada com sucesso!",
+            "delete_success": "Sua conta foi deletada com sucesso!",
+            "delete_error": "Ocorreu um erro ao excluir sua conta. Tente novamente!"
+        },
+        "shortener": {
+            "shortcode_available": "Esse shortcode está disponível!",
+            "shortcode_exists": "Esse shortcode está indisponível!",
+            "notfound": "Url encurtada não encontrada!",
+            "create_success": "Sua url foi encurtada com sucesso!",
+            "delete_success": "Sua url foi deletada com sucesso!"
+        },
+        "system": {
+            "update_success": "As configurações do sistema foram atualizadas com sucesso!"
+        },
+        "plans": {
+            "notfound": "Plano não encontrado",
+            "collections_number": "Número de coleções deve ser um número.",
+            "urls_number": "Número de urls deve ser um número.",
+            "price_number": "O preço deve ser um número.",
+            "create_success": "Plano criado com sucesso!",
+            "update_success": "Plano atualizado com sucesso!",
+            "delete_success": "Plano deletado com sucesso!"
+        },
+        "transactions": {
+            "notfound": "Transação não encontrada!",
+            "create_success": "Transação criado com sucesso!"
+        },
+        "payments": {
+            "failed": "Falha no pagamento",
+            "success": "Pagamento aprovado"
+        },
+        "mailer": {
+            "create_success": "Template de e-mail salvo com sucesso!",
+            "send_success": "Email enviado a todos os usuários com sucesso!"
+        },
+        "news": {
+            "notfound": "Notícia{{plural}} não encontra{{plural}}!",
+            "limit_number": "Limite deve ser um número.",
+            "create_success": "Notícia criada com sucesso!",
+            "update_success": "Notícia atualizada com sucesso!",
+            "delete_success": "Notícia deletada com sucesso!"
+        },
+        "alert": {
+            "notfound": "Alerta{{plural}} não encontrado{{plural}}!",
+            "limit_number": "Limit should be a number.",
+            "create_success": "Alerta criado com sucesso!",
+            "update_success": "Alerta atualizado com sucesso!",
+            "delete_success": "Alerta deletado com sucesso!"
+        }
+    },
+    "pages": {
+        "forbidden": {
+            "title": "403",
+            "homepage": "Ir para página inicial",
+            "issue": "Enviar um pedido de suporte",
+            "message": "Você não tem permissão para acessar esta página."
+        },
+        "notfound": {
+            "title": "404",
+            "homepage": "Ir para página inicial",
+            "issue": "Enviar um pedido de suporte",
+            "message": "A página {{path}} não existe ou foi removida."
+        },
+        "servererror": {
+            "title": "500",
+            "homepage": "Ir para página inicial",
+            "issue": "Enviar um pedido de suporte",
+            "message": "Houve um erro interno do servidor. Tente novamente."
+        },
+        "maintenance": {
+            "title": "MAINTENANCE",
+            "refresh": "Atualizar página",
+            "message": "O Ully está atualmente em manutenção. Tente novamente mais tarde."
+        },
+        "landingpage": {
+            "home": {
+                "description": "A mais <span data-typer-targets=\"Fácil,Simples,Rápida,Elegante\">Simples</span> e <strong>poderosa ferramenta</strong> <br>para <strong>salvar</strong> seus links favoritos",
+                "note": "Acessível a partir de qualquer dispositivo",
+                "note2": "Simples, fácil e elegante",
+                "features": {
+                    "title": "Funcionalidades do Ully",
+                    "note": "Algumas das funcionalidades do Ully",
+                    "links": {
+                        "title": "Links",
+                        "description": "Salve seus links ou páginas que você vê na internet, só clicar no link com o botão direito e selecione \"Salvar esse link no Ully\"."
+                    },
+                    "favorites": {
+                        "title": "Favoritos",
+                        "description": "Veja a lista de links que você salvou na sua coleção de favoritos."
+                    },
+                    "collections": {
+                        "title": "Coleções",
+                        "description": "Organize seus links em coleções públicas ou privadas."
+                    },
+                    "dashboard": {
+                        "title": "Dashboard",
+                        "description": "Gerencie a sua conta, coleções e links apartir da Dashboard."
+                    },
+                    "share": {
+                        "title": "Compartilhe com seus amigos",
+                        "description": "Compartilhe as suas coleções públicas com os seus amigos para que eles também possam conhecer as coisas legais que você ver na internet."
+                    },
+                    "anywhere": {
+                        "title": "Anywhere",
+                        "description": "Acesse suas coleções em qualquer lugar usando a Dashboard, Extensão do Ully no Goggle Chrome ou via Terminal usando o Ully CLI."
+                    }
+                },
+                "faq": {
+                    "title": "Perguntas Frequentes",
+                    "questions": {
+                        "payments": {
+                            "question": "Quais as formas de pagamento que são aceitas?",
+                            "answer": "Aceitamos pagamentos usando Paypal ou Bitcoin."
+                        },
+                        "plans": {
+                            "question": "Preciso escolher um plano agora?",
+                            "answer": "Não. A sua conta é totalmente gratuito, mas quando você atingir o limite padrão para contas gratuitas você terá que aumentar o limite da sua conta para continuar usando."
+                        },
+                        "free": {
+                            "question": "Como é que a conta gratuita funciona?",
+                            "answer": "A conta gratuita possui todos os recursos disponíveis, não há planos mensais. Você só paga pelo que usa. As contas gratuitas têm um limite de 20 coleções e 400 urls por coleção, ao atingir o limite da sua conta você irá precisar aumentar o seu limite selecionando um dos vários planos disponíveis."
+                        },
+                        "browsers": {
+                            "question": "Quando o Extension Ully estará disponível para outros navegadores?",
+                            "answer": "No momento, a extensão do Ully só está disponível para o Google Chrome, mas em breve estará disponível para outros navegadores."
+                        },
+                        "more": {
+                            "question": "Tem mais perguntas?",
+                            "answer": "Envie um e-mail para hello@ully.in com quaisquer perguntas, comentários ou sugestões que você tem e nós vamos responder o mais rapidamente possível."
+                        }
+                    }
+                },
+                "bottombar": {
+                    "title": "Baixar a extensão do Ully",
+                    "description": "Salve seus links favoritos ou páginas usando o Google Chrome.",
+                    "note": "Baixe o Ully no Chrome Web Store e começar a salvar seus links."
+                }
+            },
+            "footer": {
+                "description": "Criar uma conta com <strong>Facebook</strong>, <strong>Google</strong>, <strong>GitHub</strong> ou com seu <strong>E-mail</strong>"
+            }
+        },
+        "about": {
+            "title": "Sobe nós",
+            "team": {
+                "title": "Equipe",
+                "members": {
+                    "chrisenytc": {
+                        "name": "Christopher EnyTC",
+                        "role": "Fundador & Programador"
+                    }
+                }
+            },
+            "p1": "Ully é um gerenciador de favoritos onde você pode salvar seus favoritos links ou páginas que você visita no dia-a-dia, você pode separar seus links em coleções públicas ou privadas, e você pode compartilhar com outros usuários suas coleções públicas.",
+            "p2": "No mundo de hoje em que vivemos conectados à internet estamos sempre visitando novas páginas e acessando novos links todos os dias, mas nem sempre nós lembramos de todas as coisas interessantes que vemos na internet. O Ully nasceu da necessidade de organizar e guardar tudo o que você gosta na internet, sejam páginas de notícias, artigos científicos ou humor no Ully você sempre pode ter tudo na mão e, em seguida, procurar tudo o que você salvou no dia.",
+            "copyright": "Copyright © {{year}} - EnyTC Corporation. Todos os direitos reservados.",
+            "powered_by": "EnyTC Corporation"
+        },
+        "tos": {
+            "title": "Termos de Serviço"
+        },
+        "privacy": {
+            "title": "Termos de Privacidade"
+        },
+        "support": {
+            "title": "Suporte",
+            "message": "Envie um e-mail para <a href=\"mailto:support@ully.in\">support@ully.in</a>. Nós responderemos o mais rápido possível."
+        },
+        "installed": {
+            "title": "Instalado",
+            "note": "A extensão do Ully foi instalada com sucesso!"
+        },
+        "pricing": {
+            "title": "Preço",
+            "note": "Aumente o limite da sua conta com facilidade usando PayPal ou Bitcoin",
+            "collections": "Coleções",
+            "urls": "Urls por coleção"
+        },
+        "login": {
+            "title": "Entre com seu email e senha",
+            "note": "Ainda não tem uma conta?"
+        },
+        "signup": {
+            "title": "Bem-vindo(a) ao Ully, crie uma conta.",
+            "errors": {
+                "name": "Seu nome é obrigatório!",
+                "username": "Seu nome de usuário é obrigatório",
+                "email": "Seu nome é obrigatório!",
+                "password": "Sua senha é obrigatória!"
+            },
+            "terms": "Ao criar sua conta, você concorda com a nossos <a href=\"/tos\" target=\"_self\">termos de privacidade</a>",
+            "note": "Já tem uma conta?"
+        },
+        "forgot": {
+            "title": "Recuperar sua senha",
+            "note": "Já tem uma conta?",
+            "errors": {
+                "username": "Seu nome de usuário é obrigatório!",
+                "email": "Sua senha é obrigatória!"
+            }
+        },
+        "reset": {
+            "title": "Preencha uma nova senha"
+        },
+        "activate": {
+            "title": "Reenviar token de ativação"
+        },
+        "account": {
+            "title": "Configurações",
+            "description": "Editar sua conta",
+            "subtitle": "Editar conta",
+            "subtitle2": "Access Token",
+            "subtitle3": "Deletar conta",
+            "note": "Você pode editar suas informações de conta, preencha os campos abaixo. Se você não quiser mudar a sua senha, deixe os campos \"Nova senha\" e \"Confirmar senha\" em branco.",
+            "note2": "Preencha sua senha atual para ver seu access token",
+            "note3": "Você pode excluir sua conta a qualquer momento. Simplesmente preencha sua senha abaixo e clique em \"Excluir minha conta\". Lembre-se que se você excluir sua conta, todas as suas coleções e urls serão excluídas também. Você não terá nenhuma maneira de recuperar sua conta.",
+            "note4": "Este é o seu access token. Através dele você será capaz de acessar a API do Ully e gerenciar suas coleções e urls.",
+            "errors": {
+                "name": "Nome é obrigatório!",
+                "username": "Nome de usuário é obrigatório!",
+                "email": "E-mail é obrigatório!",
+                "current_password": "Senha atual é obrigatório!",
+                "password": "Nova Senha é obrigatória!",
+                "confirm_password": "Confirmar senha é obrigatório!"
+            }
+        },
+        "profile": {
+            "title": "Perfil",
+            "description": "{{name}}"
+        },
+        "dashboard": {
+            "title": "Painel",
+            "description": "Bem-vindo(a), {{name}}"
+        },
+        "search": {
+            "title": "Buscar",
+            "description": "Buscar amigos"
+        },
+        "collections": {
+            "title": "Coleções",
+            "description": "Gerenciar suas coleções",
+            "length": "Essa coleção tem",
+            "length2": "urls",
+            "updated_at": "Atualizado",
+            "errors": {
+                "name": "Nome é obrigatório!",
+                "slug": "Slug é obrigatória!",
+                "public": "Privacidade é obrigatória!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Criar uma nova coleção"
+                },
+                "update": {
+                    "title": "Atualizar"
+                },
+                "delete": {
+                    "title": "Deletar",
+                    "note": "Você tem certeza que quer exluir a coleção <strong ng-bind=\"collection.name\"></strong>?"
+                }
+            },
+            "favorites": {
+                "title": "Favoritos",
+                "description": "Gerenciar seus favoritos"
+            },
+            "urls": {
+                "title": "Urls de {{slug}}",
+                "description": "Gerenciar urls",
+                "created_at": "Criado",
+                "updated_at": "Atualizado",
+                "errors": {
+                    "url": "Url é obrigatória!",
+                    "valid_url": "Por favor preencha uma url válida!"
+                },
+                "modal": {
+                    "create": {
+                        "title": "Criar uma nova url"
+                    },
+                    "update": {
+                        "title": "Atualizar"
+                    },
+                    "delete": {
+                        "title": "Deletar",
+                        "note": "Você tem certeza que quer exluir a url <strong ng-bind=\"url.url\"></strong>?"
+                    }
+                }
+            }
+        },
+        "shortener": {
+            "title": "Essa url é protegida com senha",
+            "errors": {
+                "url": "Url é obrigatória!"
+            }
+        },
+        "admin": {
+            "title": "Painel",
+            "description": "Bem-vindo(a), {{name}}"
+        },
+        "users": {
+            "title": "Usuários",
+            "description": "Gerenciar usuários",
+            "errors": {
+                "name": "Nome é obrigatório!",
+                "username": "Nome de usuário é obrigatório!",
+                "email": "E-mail é obrigatório!",
+                "password": "Nova senha é obrigatória!",
+                "role": "Cargo é obrigatório!",
+                "status": "Status é obrigatório!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Criar novo usuário"
+                },
+                "update": {
+                    "title": "Atualizar"
+                },
+                "delete": {
+                    "title": "Deletar",
+                    "note": "Você tem certeza que quer deletar o usuário <strong ng-bind=\"user.name\"></strong>?"
+                }
+            }
+        },
+        "moderation": {
+            "title": "Moderação",
+            "description": "Moderar coleções e urls"
+        },
+        "news": {
+            "title": "Notícias",
+            "description": "Gerenciar notícias",
+            "subtitle": "Publicar uma notícia",
+            "note": "Publicar uma notícia para os usuários.",
+            "empty_news": "Sem notícias",
+            "published_by": "Por",
+            "published_at": "Publicado em",
+            "errors": {
+                "title": "Título é obrigatório!",
+                "content": "Conteúdo é obrigatório!"
+            }
+        },
+        "alert": {
+            "title": "Alertas",
+            "subtitle": "Publicar um alerta",
+            "note": "Publicar um alerta para os usuários.",
+            "empty_alert": "Sem alertas",
+            "published_by": "Por",
+            "published_at": "Publicado em",
+            "errors": {
+                "content": "Conteúdo é obrigatório!"
+            }
+        },
+        "system": {
+            "title": "System",
+            "description": "Configure the system settings",
+            "subtitle": "Maintenance",
+            "note": "Enable or disable the maintenance mode",
+            "updated_at": "Last updated at",
+            "updated_by": "by",
+            "stats": {
+                "hostname": "Hostname",
+                "platform": "Platform",
+                "cpus": "CPUs",
+                "uptime": "Uptime",
+                "total_memory": "Total Memory",
+                "free_memory": "Free Memory"
+            }
+        },
+        "plans": {
+            "title": "Planos",
+            "subtitle": "Criar um plano",
+            "description": "Gerenciar planos",
+            "note": "Criar um novo plano",
+            "empty_plans": "Sem planos",
+            "errors": {
+                "title": "Título é obrigatório!",
+                "collections": "Número de coleções é obrigatório!",
+                "urls": "Número de urls é obrigatório!",
+                "price": "Preço é obrigatório!"
+            }
+        },
+        "transactions": {
+            "title": "Transações",
+            "description": "Gerenciar transações",
+            "empty_transactions": "Sem transações",
+            "errors": {
+                "plan_id": "ID do plano é obrigatório!",
+                "user_id": "ID do usuário é obrigatório!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Criar uma nova coleção"
+                }
+            }
+        },
+        "receipts": {
+            "title": "Recibos",
+            "description": "Histórico de pagamentos"
+        },
+        "receipt": {
+            "title": "Recibo do pedido",
+            "description": "Detalhes do pagamento"
+        },
+        "payments": {
+            "title": "Melhorar",
+            "description": "Aumentar os limites da conta"
+        },
+        "import": {
+            "title": "Importador",
+            "description": "Importar coleções",
+            "errors": {
+                "invalid_format": "O formato do documento JSON não é uma UllyCollectionList válida!",
+                "content": "Conteúdo é obrigatório!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Importar coleções"
+                }
+            }
+        },
+        "mailer": {
+            "title": "Mailer",
+            "description": "Enviar e-mails para os usuários",
+            "empty_emails": "Sem emails para mostrar",
+            "variables": "Variáveis",
+            "errors": {
+                "subject": "Assunto é obrigatório!",
+                "content": "Conteúdo é obrigatório!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Escrever novo e-mail"
+                }
+            }
+        }
+    }
+}

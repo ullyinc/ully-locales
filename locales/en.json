@@ -1,0 +1,792 @@
+{
+    "app": {
+        "title": "Ully",
+        "description": "Manage your favorite links easily and quickly"
+    },
+    "menus": {
+        "landingmenu": {
+            "about": "About",
+            "pricing": "Pricing",
+            "developers": "Developers",
+            "privacy": "Privacy Policy",
+            "tos": "Terms of Service",
+            "blog": "Blog",
+            "support": "Support",
+            "contact": "Contact"
+        },
+        "profilemenu": {
+            "account": "Settings",
+            "receipts": "Receipts",
+            "profile": "Profile",
+            "lockscreen": "Lockscreen",
+            "logout": "Logout"
+        },
+        "mainmenu": {
+            "dashboard": "Dashboard",
+            "search": "Search",
+            "shortener": "Shortener",
+            "favorites": "Favorites",
+            "collections": "Collections",
+            "stats": "Stats",
+            "users": "Users",
+            "moderation": "Moderation",
+            "news": "News",
+            "mailer": "Mailer",
+            "billing": "Billing",
+            "plans": "Plans",
+            "transactions": "Transactions",
+            "system": "System"
+        }
+    },
+    "forms": {
+        "placeholders": {
+            "search": "Search...",
+            "search_users": "Search for users",
+            "search_collections": "Search for collections",
+            "shorten": "Enter a new url to shorten",
+            "protected_url": "Enter a password",
+            "shortcode": "Enter a shortcode",
+            "login": {
+                "email": "Enter your email",
+                "password": "Enter your password"
+            },
+            "signup": {
+                "name": "Enter your name",
+                "username": "Enter your username",
+                "email": "Enter your email",
+                "password": "Enter your password"
+            },
+            "forgot": {
+                "username": "Enter your username",
+                "email": "Enter your email"
+            },
+            "reset": {
+                "password": "Enter a new password",
+                "confirm_password": "Enter your new password again"
+            },
+            "activate": {
+                "email": "Enter your email"
+            },
+            "shortener": {
+                "password": "Enter a password of this url"
+            },
+            "system": {
+                "message": "Enter a message to show in maintenance page (optional)",
+                "current_password": "Enter your current password"
+            },
+            "plans": {
+                "name": "Name of the Plan",
+                "collections": "Number of Collections",
+                "urls": "Number of Urls",
+                "price": "Price of the plan"
+            },
+            "transactions": {
+                "plan_id": "Select a Plan",
+                "user_id": "Select a User"
+            },
+            "news": {
+                "title": "Enter a title of the news",
+                "content": "Enter a content of the news"
+            },
+            "alert": {
+                "content": "Enter a content of the alert"
+            }
+        },
+        "labels": {
+            "name": "Name",
+            "username": "Username",
+            "email": "Email",
+            "locale": "Select your locale",
+            "password": "Password",
+            "role": "Role",
+            "current_password": "Current Password",
+            "new_password": "New Password",
+            "confirm_password": "Confirm Password",
+            "access_token": "Access Token",
+            "collections": {
+                "name": "Name",
+                "slug": "Slug",
+                "public": "Privacy",
+                "title": "Title",
+                "description": "Description",
+                "url": "Url"
+            },
+            "urlsof": "Urls of",
+            "users": "Users",
+            "active_users": "Active Users",
+            "inactive_users": "Inactive Users",
+            "all_collections": "Collections",
+            "public_collections": "Public Collections",
+            "private_collections": "Private Collections",
+            "urls": "Urls",
+            "api_status": "API Status",
+            "maintenance": "Maintenance Mode",
+            "message": "Message",
+            "admin": "Staff",
+            "user": "User",
+            "title": "Title",
+            "content": "Content",
+            "status": "Status",
+            "published": "Published",
+            "draft": "Draft",
+            "type": "Type",
+            "type_success": "Success",
+            "type_danger": "Error",
+            "type_info": "Info",
+            "type_warning": "Warning",
+            "plans": {
+                "name": "Name",
+                "collections": "Number of Collections",
+                "urls": "Number of Urls",
+                "price": "Price"
+            },
+            "transactions": {
+                "plan_id": "Plan ID",
+                "user_id": "User ID",
+                "order_id": "Order ID",
+                "date": "Date",
+                "order_date": "Order Date",
+                "plan": "Plan Name",
+                "description": "Description",
+                "price": "Price",
+                "payment_id": "Payment ID",
+                "payment_method": "Payment Method",
+                "total": "Total",
+                "user": "User"
+            },
+            "sent_emails": "Sent emails",
+            "mailer": {
+                "subject": "Subject",
+                "content": "Content"
+            },
+            "import": {
+                "content": "Content"
+            }
+        }
+    },
+    "buttons": {
+        "readmore": "Read more",
+        "download": "Download",
+        "chrome": "Chrome Web Store",
+        "firefox": "Coming Soon",
+        "login": "Sign in",
+        "login_basic": "Login with Email",
+        "login_facebook": "Login with Facebook",
+        "login_twitter": "Login with Twitter",
+        "login_google": "Login with Google",
+        "login_github": "Login with GitHub",
+        "signup_basic": "Signup with Email",
+        "signup_facebook": "Signup with Facebook",
+        "signup_google": "Signup with Google",
+        "signup_github": "Signup with GitHub",
+        "signup_with": "Signup with {{provider}}",
+        "forgotpassword?": "Forgot password?",
+        "connect_facebook": "Connect Facebook",
+        "connect_twitter": "Connect Twitter",
+        "connect_google": "Connect Google",
+        "connect_github": "Connect GitHub",
+        "unlink_facebook": "Unlink Facebook",
+        "unlink_twitter": "Unlink Twitter",
+        "unlink_google": "Unlink Google",
+        "unlink_github": "Unlink GitHub",
+        "reset_password": "Reset your password",
+        "resend_token": "Resend activation token",
+        "create_account": "Create an account",
+        "create_my_account": "Create my account",
+        "update_account": "Update my account",
+        "delete_account": "Delete my account",
+        "show_access_token": "Show my access token",
+        "reset_access_token": "Reset my access token",
+        "previous": "Previous",
+        "next": "Next",
+        "create": "Create",
+        "compose": "Compose",
+        "update": "Update",
+        "confirm": "Confirm",
+        "close": "Close",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "remove": "Remove",
+        "goto": "Go to",
+        "send": "Send",
+        "back": "Back to Dashboard",
+        "try": "Try again",
+        "print": "Print",
+        "pay_paypal": "Pay with Paypal",
+        "pay_bitcoin": "Pay with Bitcoin (Coming soon)",
+        "upgrade": "Increase your limit",
+        "view_receipt": "View receipt",
+        "view_profile": "View profile",
+        "view_links": "View links",
+        "shorten": "Shorten",
+        "unlock_url": "Unlock to Redirect",
+        "update_system": "Update settings",
+        "publish": "Publish",
+        "download_collections": "Export collections",
+        "upload_collections": "Import collections",
+        "qrcode": "View as QRCode",
+        "import": "Import",
+        "validate": "Validate"
+    },
+    "mail": {
+        "greeting": "Hi, {{ name }}",
+        "signup": {
+            "title": "Welcome to Ully",
+            "message": "To start using the Ully, you need to activate your account. Click the link to activate your account.",
+            "button": "Activate your Ully account"
+        },
+        "social_signup": {
+            "title": "Welcome to Ully",
+            "message": "You joined the Ully using your {{ socialNetwork }} account, was generated a password and username for your account. Your personal information can be changed using the link below:",
+            "username": "Username:",
+            "password": "Password:",
+            "button": "Access your account"
+        },
+        "activate": {
+            "title": "Your account is activated",
+            "message": "Start using the Ully. Click the link to access your account.",
+            "button": "Access your account"
+        },
+        "forgot": {
+            "title": "Forgot Password",
+            "message": "You requested a password change. Use the link below to create a new password.",
+            "button": "Reset password"
+        },
+        "reset": {
+            "title": "Your password has been changed",
+            "subtitle": "Reset Password",
+            "message": "Your password has been changed successfully on {{ updatedDate }} from ip: {{ ip }}.",
+            "button": "Access your account"
+        },
+        "update_account": {
+            "title": "Your account was updated",
+            "message": "Your account has been updated successfully on {{ updatedDate }} from ip: {{ ip }}.",
+            "button": "Access your account"
+        },
+        "delete_account": {
+            "title": "Your account was deleted",
+            "message": "Your account has been deleted successfully on {{ updatedDate }} from ip: {{ ip }}.",
+            "button": "Create a new account"
+        },
+        "receipt": {
+            "title": "Payment approved",
+            "payment_title": "Payment details",
+            "plan_title": "Plan details",
+            "order_date": "Order Date:",
+            "order_id": "Order ID:",
+            "payment_id": "Payment ID:",
+            "payment_method": "Payment Method:",
+            "plan": "Plan Name:",
+            "price": "Price:",
+            "description": "Description:",
+            "message": "Your payment has been approved, you can see the payment details below.",
+            "button": "View receipt"
+        }
+    },
+    "messages": {
+        "generic_error": "An error occurred. Try again!",
+        "api": {
+            "welcome": "Welcome to the Ully API."
+        },
+        "importer": {
+            "unsupported_browser": "Sorry, your browser is not compatible with the Ully.",
+            "import_info": "The Ully received your bookmarks and has started to import all into your account. Wait a little longer. :)",
+            "import_success": "Your bookmarks have been successfully imported into Ully!",
+            "collections": {
+                "nospace": "Sorry, the amount of collections in your browser is greater than the limit allowed for your account."
+            },
+            "urls": {
+                "nospace": "Your bookmark {{collection}} has {{length}} urls and is greater than the limit allowed for your account."
+            }
+        },
+        "import": {
+            "validate_success": "This json document is a valid UllyCollectionList!",
+            "import_success": "Your collections have been successfully imported into Ully!"
+        },
+        "auth": {
+            "notfound": "There is no user with that email!",
+            "inactive": "Your account is not activated. Check your inbox, we send an e-mail with your activation token. If you don't receive a activation token <a href=\"/activate\">click here</a>.",
+            "activated": "Your account is activated successfully!",
+            "invalid_password": "Invalid password!",
+            "not_logged": "You must be logged in to access this page!",
+            "login_success": "Logged successfully using your {{provider}}!",
+            "login_fail": "A error occurred while trying to create your account using your {{provider}}. Try again!",
+            "login_fail_twitter": "You must be registered to able to use your Twitter account. Visit your account settings and add login with twitter.",
+            "login_api_fail": "Bad Authentication. You do not have permission to access the API!",
+            "login_activation": "A email with the your activation token has been sent to your email!",
+            "forgot_password": "A email with the password reset link has been sent to your email!",
+            "captcha_fail": "You did not answer the captcha correctly. Try again!",
+            "email_exists": "This email already exists!",
+            "username_exists": "This username already exists!",
+            "token_notfound": "Token not found. Try again!",
+            "password_notmatch": "These passwords don't match!",
+            "reset_password": "Your password has been changed successfully!",
+            "current_password": "The current password is incorrect. Try again!",
+            "reset_ac_success": "A new access token has been generated successfully!"
+        },
+        "users": {
+            "notfound": "User{{plural}} not found!",
+            "empty_users": "No users",
+            "create_success": "User created successfully!",
+            "update_success": "User updated successfully!",
+            "delete_success": "User removed successfully!"
+        },
+        "collections": {
+            "notfound": "Collection{{plural}} not found!",
+            "slug_exists": "This slug already exists!",
+            "limit_collections": "Sorry, but you have reached the limit of {{limit}} collections!",
+            "limit_urls": "Sorry, but you have reached the limit of {{limit}} urls in this collection!",
+            "empty_collections": "You have no collections",
+            "no_changes": "You made ​​no changes!",
+            "create_success": "Collection created successfully!",
+            "update_success": "Collection updated successfully!",
+            "delete_success": "Collection removed successfully!",
+            "protected_collection": "You cannot remove this collection!",
+            "collection_exists": "You already have a collection with that slug. Try again using another slug.",
+            "urls": {
+                "notfound": "Url{{plural}} not found!",
+                "empty_urls": "You have no urls",
+                "no_changes": "You made ​​no changes!",
+                "create_success": "Url created successfully!",
+                "update_success": "Url updated successfully!",
+                "delete_success": "Url removed successfully!"
+            }
+        },
+        "account": {
+            "limit_info": "Your current limit is <strong>{{collections}}</strong> collections with up to <strong>{{urls}}</strong> urls each.",
+            "unlink_success": "Your {{provider}} account was been unlinked successfully!",
+            "update_success": "Your account has been updated successfully!",
+            "delete_success": "Your account has been deleted successfully!",
+            "delete_error": "An error occurred while deleting your account. Try again!"
+        },
+        "shortener": {
+            "shortcode_available": "This shortcode is available!",
+            "shortcode_exists": "This shortcode already exists!",
+            "notfound": "Shortened url not found!",
+            "create_success": "Your url has been shortened successfully!",
+            "delete_success": "Your shortened url has been deleted successfully!"
+        },
+        "system": {
+            "update_success": "System settings has been updated successfully!"
+        },
+        "plans": {
+            "notfound": "Plan not found!",
+            "collections_number": "Number of Collections should be a number.",
+            "urls_number": "Number of Urls should be a number.",
+            "price_number": "Price should be a number.",
+            "create_success": "Plan created successfully!",
+            "update_success": "Plan updated successfully!",
+            "delete_success": "Plan removed successfully!"
+        },
+        "transactions": {
+            "notfound": "Transaction not found!",
+            "create_success": "Transaction created successfully!"
+        },
+        "payments": {
+            "failed": "Payment failed",
+            "success": "Payment approved"
+        },
+        "mailer": {
+            "create_success": "Email template saved successfully!",
+            "send_success": "Email sent to all users successfully!"
+        },
+        "news": {
+            "notfound": "News not found!",
+            "limit_number": "Limit should be a number.",
+            "create_success": "News created successfully!",
+            "update_success": "News updated successfully!",
+            "delete_success": "News removed successfully!"
+        },
+        "alert": {
+            "notfound": "Alert{{plural}} not found!",
+            "limit_number": "Limit should be a number.",
+            "create_success": "Alert created successfully!",
+            "update_success": "Alert updated successfully!",
+            "delete_success": "Alert removed successfully!"
+        }
+    },
+    "pages": {
+        "forbidden": {
+            "title": "403",
+            "homepage": "Go to homepage",
+            "issue": "Submit a issue",
+            "message": "You don't have permission to access this page."
+        },
+        "notfound": {
+            "title": "404",
+            "homepage": "Go to homepage",
+            "issue": "Submit a issue",
+            "message": "The page {{path}} doesn't exists or has been removed."
+        },
+        "servererror": {
+            "title": "500",
+            "homepage": "Go to homepage",
+            "issue": "Submit a issue",
+            "message": "There was a internal server error. Try again."
+        },
+        "maintenance": {
+            "title": "MAINTENANCE",
+            "refresh": "Refresh this page",
+            "message": "The Ully is currently under maintenance. Try again later."
+        },
+        "landingpage": {
+            "home": {
+                "description": "The Most <span data-typer-targets=\"Easy,Friendly,Simple,Fast\">Simple</span> and <strong>Powerful Way</strong> <br>to <strong>save</strong> your favorite links",
+                "note": "Accessible from any device",
+                "note2": "Simple, easy and elegant",
+                "features": {
+                    "title": "Some great features of Ully",
+                    "note": "With our features, you'll fall in love with",
+                    "links": {
+                        "title": "Links",
+                        "description": "Save your links or pages you see on the internet, only click in the link with right click and select \"Save link to Ully\"."
+                    },
+                    "favorites": {
+                        "title": "Favorites",
+                        "description": "See list of links that you saved in your Favorites collection."
+                    },
+                    "collections": {
+                        "title": "Collections",
+                        "description": "Organize your links in public or private collections."
+                    },
+                    "dashboard": {
+                        "title": "Dashboard",
+                        "description": "Manage your account, collections and links from the Dashboard."
+                    },
+                    "share": {
+                        "title": "Share with friends",
+                        "description": "Share your public collections with your friends so they can also know the cool things you know on the internet."
+                    },
+                    "anywhere": {
+                        "title": "Anywhere",
+                        "description": "Access their collections anywhere using the Dashboard, Ully Extension or via Terminal using Ully CLI."
+                    }
+                },
+                "faq": {
+                    "title": "Frequently Asked Questions",
+                    "questions": {
+                        "payments": {
+                            "question": "What payment types do you accept?",
+                            "answer": "We accept payments from Paypal and Bitcoin."
+                        },
+                        "plans": {
+                            "question": "Do I need to choose a plan now?",
+                            "answer": "No. Your account is totally free, but when you reach the standard limit for free accounts you have to increase the limit of your account to continue using."
+                        },
+                        "free": {
+                            "question": "How does the free account work?",
+                            "answer": "The free account has all the features available, there is no monthly plans. You only pay for what you use. Free accounts have a limit of 20 collections and 400 urls per collection, Upon reaching the limit of your account you need to increase your limit by selecting one of several credit plans."
+                        },
+                        "browsers": {
+                            "question": "When the Ully Extension will be available for other browsers?",
+                            "answer": "At the moment, the Ully Extension is only available for Google Chrome, but will soon be available for other browsers."
+                        },
+                        "more": {
+                            "question": "Have more questions?",
+                            "answer": "Email us at hello@ully.in with any questions, comments or feedback you have and we'll get back to you as soon as possible."
+                        }
+                    }
+                },
+                "bottombar": {
+                    "title": "Download Ully Extension",
+                    "description": "Save your favorite links or pages using google chrome.",
+                    "note": "Download the Ully on Chrome Web Store and start to save your links."
+                }
+            },
+            "footer": {
+                "description": "Create your account with <strong>Facebook</strong>, <strong>Google</strong>, <strong>GitHub</strong> or with your <strong>Email</strong>"
+            }
+        },
+        "about": {
+            "title": "About Us",
+            "team": {
+                "title": "Our Team",
+                "members": {
+                    "chrisenytc": {
+                        "name": "Christopher EnyTC",
+                        "role": "Founder & Developer"
+                    }
+                }
+            },
+            "p1": "Ully is a bookmark manager where you can save your favorites links or pages that you visit on day to day, you can separate your links in public or private collections, and you can share with other users their public collections.",
+            "p2": "In today's world we live connected to the internet, we are always visiting new pages and accessing new links every day, but do not always remember all the interesting things we see on the internet. Ully was born of the need to organize and save everything you like on the internet, either pages of news, scientific articles or mood in Ully you can always have everything in your hand and then search all what you have saved in the day.",
+            "copyright": "Copyright © {{year}} - EnyTC Corporation. All rights reserved.",
+            "powered_by": "EnyTC Corporation"
+        },
+        "tos": {
+            "title": "Terms of Service"
+        },
+        "privacy": {
+            "title": "Privacy Policy"
+        },
+        "support": {
+            "title": "Support",
+            "message": "Send a email to <a href=\"mailto:support@ully.in\">support@ully.in</a>. We reply as soon as possible."
+        },
+        "installed": {
+            "title": "Installed",
+            "note": "Ully Extension installed successfully!"
+        },
+        "pricing": {
+            "title": "Pricing",
+            "note": "Increase the limit of your account with ease using PayPal or Bitcoin",
+            "collections": "Collections",
+            "urls": "Urls per Collection"
+        },
+        "login": {
+            "title": "Enter with your email and password",
+            "note": "Do not have an account?"
+        },
+        "signup": {
+            "title": "Welcome to Ully, create your account.",
+            "errors": {
+                "name": "Your name is required!",
+                "username": "Your username is required!",
+                "email": "Your email is required!",
+                "password": "Your password is required!"
+            },
+            "terms": "When creating your account you agree to our <a href=\"/tos\" target=\"_self\">terms and policy</a>",
+            "note": "Already have an account?"
+        },
+        "forgot": {
+            "title": "Reset your password",
+            "note": "Already have an account?",
+            "errors": {
+                "username": "Your username is required!",
+                "email": "Your email is required!"
+            }
+        },
+        "reset": {
+            "title": "Enter your new password"
+        },
+        "activate": {
+            "title": "Resend activation token"
+        },
+        "account": {
+            "title": "Settings",
+            "description": "Edit your account",
+            "subtitle": "Edit Account",
+            "subtitle2": "Access Token",
+            "subtitle3": "Delete Account",
+            "note": "You can edit your account information by filling out the fields below. If you do not want to change your password, Leave fields \"New Password\" and \"Confirm Password\" be blank.",
+            "note2": "Enter your current password to view your access token",
+            "note3": "You can delete your account at any times. Just simply fill in your password below and click on \"Delete my account\". Remember that if you delete your account, all your collections and urls will be deleted too. You will have no way to recover your account.",
+            "note4": "This is your access token. Using it you will be able to access the Ully API and manage their collections and urls.",
+            "errors": {
+                "name": "Name is required!",
+                "username": "Username is required!",
+                "email": "Email is required!",
+                "current_password": "Current Password is required!",
+                "password": "New Password is required!",
+                "confirm_password": "Confirm Password is required!"
+            }
+        },
+        "profile": {
+            "title": "Profile",
+            "description": "{{name}}"
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "description": "Welcome, {{name}}"
+        },
+        "search": {
+            "title": "Search",
+            "description": "Find Users"
+        },
+        "collections": {
+            "title": "Collections",
+            "description": "Manage your collections",
+            "length": "This collection have",
+            "length2": "urls",
+            "updated_at": "Last updated",
+            "errors": {
+                "name": "Name is required!",
+                "slug": "Slug is required!",
+                "public": "Public is required!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Create a new collection"
+                },
+                "update": {
+                    "title": "Update"
+                },
+                "delete": {
+                    "title": "Delete",
+                    "note": "Are you sure you want to remove <strong ng-bind=\"collection.name\"></strong>?"
+                }
+            },
+            "favorites": {
+                "title": "Favorites",
+                "description": "Manage your favorites"
+            },
+            "urls": {
+                "title": "Urls of {{slug}}",
+                "description": "Manage your urls",
+                "created_at": "Created at",
+                "updated_at": "Updated at",
+                "errors": {
+                    "url": "Url is required!",
+                    "valid_url": "Please enter a valid url!"
+                },
+                "modal": {
+                    "create": {
+                        "title": "Create a new url"
+                    },
+                    "update": {
+                        "title": "Update"
+                    },
+                    "delete": {
+                        "title": "Delete",
+                        "note": "Are you sure you want to remove <strong ng-bind=\"url.url\"></strong>?"
+                    }
+                }
+            }
+        },
+        "shortener": {
+            "title": "This url is protected by password",
+            "errors": {
+                "url": "Url is required!"
+            }
+        },
+        "admin": {
+            "title": "Dashboard",
+            "description": "Welcome, {{name}}"
+        },
+        "users": {
+            "title": "Users",
+            "description": "Manage users",
+            "errors": {
+                "name": "Name is required!",
+                "username": "Username is required!",
+                "email": "Email is required!",
+                "password": "New Password is required!",
+                "role": "Role is required!",
+                "status": "Status is required!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Create a new user"
+                },
+                "update": {
+                    "title": "Update"
+                },
+                "delete": {
+                    "title": "Delete",
+                    "note": "Are you sure you want to remove <strong ng-bind=\"user.name\"></strong>?"
+                }
+            }
+        },
+        "moderation": {
+            "title": "Moderation",
+            "description": "Moderate collections and urls"
+        },
+        "news": {
+            "title": "News",
+            "description": "Manage news",
+            "subtitle": "Publish a news",
+            "note": "Publish a news to the users.",
+            "empty_news": "No news",
+            "published_by": "By",
+            "published_at": "Published at",
+            "errors": {
+                "title": "Title is required!",
+                "content": "Content is required!"
+            }
+        },
+        "alert": {
+            "title": "Alerts",
+            "subtitle": "Publish a alert",
+            "note": "Publish a alert to the users.",
+            "empty_alert": "No alerts",
+            "published_by": "By",
+            "published_at": "Published at",
+            "errors": {
+                "content": "Content is required!"
+            }
+        },
+        "system": {
+            "title": "System",
+            "description": "Configure the system settings",
+            "subtitle": "Maintenance",
+            "note": "Enable or disable the maintenance mode",
+            "updated_at": "Last updated at",
+            "updated_by": "by",
+            "stats": {
+                "hostname": "Hostname",
+                "platform": "Platform",
+                "cpus": "CPUs",
+                "uptime": "Uptime",
+                "total_memory": "Total Memory",
+                "free_memory": "Free Memory"
+            }
+        },
+        "plans": {
+            "title": "Plans",
+            "subtitle": "Create a Plan",
+            "description": "Manage plans",
+            "note": "Create a new plan",
+            "empty_plans": "No Plans",
+            "errors": {
+                "title": "Title is required!",
+                "collections": "Number of Collections is required!",
+                "urls": "Number of Urls is required!",
+                "price": "Price is required!"
+            }
+        },
+        "transactions": {
+            "title": "Transactions",
+            "description": "Manage Transactions",
+            "empty_transactions": "No transactions",
+            "errors": {
+                "plan_id": "Plan ID is required!",
+                "user_id": "User ID is required!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Create a new transaction"
+                }
+            }
+        },
+        "receipts": {
+            "title": "Receipts",
+            "description": "Payment history"
+        },
+        "receipt": {
+            "title": "Receipt for order",
+            "description": "Payment details"
+        },
+        "payments": {
+            "title": "Upgrade",
+            "description": "Upgrade your account"
+        },
+        "import": {
+            "title": "Importer",
+            "description": "Import collections",
+            "errors": {
+                "invalid_format": "The format of json document is not a valid UllyCollectionList!",
+                "content": "Content is required!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Import collections"
+                }
+            }
+        },
+        "mailer": {
+            "title": "Mailer",
+            "description": "Send email to users",
+            "empty_emails": "No emails to show",
+            "variables": "Variables",
+            "errors": {
+                "subject": "Subject is required!",
+                "content": "Content is required!"
+            },
+            "modal": {
+                "create": {
+                    "title": "Compose a new email"
+                }
+            }
+        }
+    }
+}
